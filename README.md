@@ -1,2 +1,7 @@
-# Nagios_with_Salt
-In this repo, I show you how to add server to Nagios with Saltstack.
+# Nagios clientin asentaminen saltilla
+
+Tässä projektissa asennan Nagios clientin Ubuntu 20.04(LTS) ja Ubuntu 18.04.3(lTS) palvelimille.
+
+## Alkuvaatimukset
+Alkuvaatimuksena Nagios Core pitää olla asennettuna. Se onnistuu mainiosti Nagioksen ohjeilla.
+
