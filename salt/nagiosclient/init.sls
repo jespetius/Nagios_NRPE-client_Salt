@@ -6,7 +6,7 @@ install_plugins:
       
 /etc/nagios/nrpe.cfg:
   file.managed:
-    - source: salt://nagios/nrpe.cfg
+    - source: salt://nagiosclient/nrpe.cfg
 
 restart_nrpe:
   service.running:
@@ -16,3 +16,13 @@ restart_nrpe:
     - watch: 
       - file: /etc/nagios/nrpe.cfg
 
+/usr/local/bin/open5666:
+  file.managed:
+    - source: salt://nagiosclient/open5666
+    - mode: 755
+
+Run open5666:
+  cmd.run:
+    - name: /usr/local/bin/open5666
+    - cwd: /
+    - stateful: True
