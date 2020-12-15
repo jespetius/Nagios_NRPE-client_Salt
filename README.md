@@ -2,7 +2,7 @@
 
 Tässä projektissa asennetaan Nagios NRPE-client Ubuntu 20.04(LTS) ja Ubuntu 18.04.3(LTS) palvelimille.
 [Sivuillani](https://jesperikuula.wordpress.com/nagios-nrpe-client-saltilla/) on artikkeli, kuinka kyseinen projekti on kehitetty. 
-Nagios Core ei ollut ennen tätä projektia itselleni liian tuttu. Tämän projektin tarkoitus on asentaa NRPE-client sulavasti valvottavaan kohteeseen. Projekti on toteutettu (Tero Karvisen Palvelinten hallinta-kurssilla)[http://terokarvinen.com/2020/configuration-management-systems-palvelinten-hallinta-ict4tn022-autumn-2020/].
+Nagios Core ei ollut ennen tätä projektia itselleni liian tuttu. Tämän projektin tarkoitus on asentaa NRPE-client sulavasti valvottavaan kohteeseen. Projekti on toteutettu [Tero Karvisen Palvelinten hallinta-kurssilla](http://terokarvinen.com/2020/configuration-management-systems-palvelinten-hallinta-ict4tn022-autumn-2020/).
 
 ## Projektissa käytetyt versiot
 Nagios Core 4.4.5 [Asennus](https://support.nagios.com/kb/article/nagios-core-installing-nagios-core-from-source-96.html#Ubuntu)
