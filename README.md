@@ -2,8 +2,20 @@
 
 Tässä projektissa asennetaan Nagios NRPE-client Ubuntu 20.04(LTS) ja Ubuntu 18.04.3(LTS) palvelimille.
 
-## Alkuvaatimukset
-Alkuvaatimuksena Nagios Core pitää olla asennettuna. Se onnistuu mainiosti Nagioksen ohjeilla. Komennot tehdään check_nrpe:llä. Olisi siis hyvä, jos komentosi käyttävät check_nrpe:tä eikä esimerkiksi SSH:ta. 
+## Projektissa käytetyt versiot
+Nagios Core 4.4.5 [Asennus](https://support.nagios.com/kb/article/nagios-core-installing-nagios-core-from-source-96.html#Ubuntu)
+
+Nagios-palvelin Ubuntu 18.04.3 (LTS) x64
+
+Valvottavat palvelimet
+
+Ubuntu 18.04.3 (LTS) x64
+
+Ubuntu 20.04 (LTS) x64
+
+salt-master:
+  Installed: 2017.7.4+dfsg1-1ubuntu18.04.2
+
 
 ## Ohjeet
 top.sls-tiedostoon lisää omat palvelimesi
