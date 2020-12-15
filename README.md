@@ -1,4 +1,5 @@
 # Nagios NRPE-clientin asentaminen Saltilla
+![alt text](https://github.com/jespetius/Nagios_with_Salt/blob/main/images/nagios.PNG)
 
 Tässä projektissa asennetaan Nagios NRPE-client Ubuntu 20.04(LTS) ja Ubuntu 18.04.3(LTS) palvelimille.
 [Sivuillani](https://jesperikuula.wordpress.com/nagios-nrpe-client-saltilla/) on artikkeli, kuinka kyseinen projekti on kehitetty. 
