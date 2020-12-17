@@ -25,4 +25,3 @@ Run open5666:
   cmd.run:
     - name: /usr/local/bin/open5666
     - cwd: /
-    - stateful: True
